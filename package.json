@@ -1,9 +1,9 @@
 {
-  "name": "pen-paper-coffee-syntax",
+  "name": "pen-paper-chalk-syntax",
   "theme": "syntax",
-  "version": "0.9.1",
-  "description": "A syntax theme specifically for writing papers in markdown. Featuring a paper like color scheme and increased font-size for headings",
-  "repository": "https://github.com/nylki/pen-paper-coffee-syntax",
+  "version": "0.1.0",
+  "description": "A syntax theme specifically for writing in markdown. The theme based on base16chalk theme.",
+  "repository": "https://github.com/anasrana/pen-paper-chalk-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

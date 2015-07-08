@@ -1,30 +1,4 @@
 // These colors are specific to the theme. Do not use in a package!
-// @syntax-text-color: #d0d0d0;
-// @syntax-cursor-color: #d0d0d0;
-// @syntax-selection-color: #303030;
-// @syntax-background-color: #151515;
-
-// // Guide colors
-// @syntax-wrap-guide-color: #505050;
-// @syntax-indent-guide-color: #505050;
-// @syntax-invisible-character-color: #505050;
-
-// // For find and replace markers
-// @syntax-result-marker-color: #505050;
-// @syntax-result-marker-color-selected: #d0d0d0;
-
-// // Gutter colors
-// @syntax-gutter-text-color: #d0d0d0;
-// @syntax-gutter-text-color-selected: #d0d0d0;
-// @syntax-gutter-background-color: #151515;
-// @syntax-gutter-background-color-selected: rgba(80, 80, 80, 0.33);
-
-// // For git diff info. i.e. in the gutter
-// // These are static and were not extracted from your textmate theme
-// @syntax-color-renamed: #96CBFE;
-// @syntax-color-added: #A8FF60;
-// @syntax-color-modified: #E9C062;
-// @syntax-color-removed: #CC6666;
 
 @cursor-color: #9DA4AC;
 
@@ -44,7 +18,6 @@
 @citation-name-color:   @link-ink;
 
 
-//old @emphasize-color:   rgb(8, 123, 172);
 @emphasize-color: spin(saturate(@light-ink, 25%), -7);
 @emphasize-quote-color: spin(saturate(@quote-color, 40%), -10);
 
@@ -60,8 +33,6 @@
 // gutter colors
 @heftstreifen: @paperwhite;
 
-//@heftstreifen: rgb(202, 193, 186); //old darker gutter
-
 @heftstreifen-selected: darken(@heftstreifen, 12%);
 
 
@@ -76,19 +47,8 @@
 
 
 // git colors
-@git-removed: rgb(215, 56, 56);
-@git-added: rgb(9, 192, 3);
-@git-modified: rgb(255, 199, 34);
-@git-renamed: rgb(53, 168, 233);
+@git-removed: #CC6666;
+@git-added: #A8FF60;
+@git-modified: #E9C062;
+@git-renamed: #96CBFE;
 
-
- // alternative colors
-/*
-@cyan:         #35a766;
-@blue:         #5977d3;
-@purple:       #8100c6;
-@green:        #8fad06;
-@red:          #d24d4d;
-@orange:       #cd8e21;
-@light-orange: #e3a92d;
-*/

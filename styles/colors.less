@@ -1,21 +1,47 @@
 // These colors are specific to the theme. Do not use in a package!
+// @syntax-text-color: #d0d0d0;
+// @syntax-cursor-color: #d0d0d0;
+// @syntax-selection-color: #303030;
+// @syntax-background-color: #151515;
 
-@cursor-color: rgb(30, 30, 8);
+// // Guide colors
+// @syntax-wrap-guide-color: #505050;
+// @syntax-indent-guide-color: #505050;
+// @syntax-invisible-character-color: #505050;
 
-@comment-ink: rgb(156, 163, 176);
-@invisible-ink: rgba(169, 193, 214, 0.70);
-@very-light-ink :rgb(110, 125, 170);
-@light-ink:      rgb(37, 95, 147);
-@ink:            rgb(43, 63, 106);
-@dark-ink:       rgb(42, 18, 10);
+// // For find and replace markers
+// @syntax-result-marker-color: #505050;
+// @syntax-result-marker-color-selected: #d0d0d0;
+
+// // Gutter colors
+// @syntax-gutter-text-color: #d0d0d0;
+// @syntax-gutter-text-color-selected: #d0d0d0;
+// @syntax-gutter-background-color: #151515;
+// @syntax-gutter-background-color-selected: rgba(80, 80, 80, 0.33);
+
+// // For git diff info. i.e. in the gutter
+// // These are static and were not extracted from your textmate theme
+// @syntax-color-renamed: #96CBFE;
+// @syntax-color-added: #A8FF60;
+// @syntax-color-modified: #E9C062;
+// @syntax-color-removed: #CC6666;
+
+@cursor-color: #9DA4AC;
+
+@comment-ink:       #444B52;
+@invisible-ink:     #444B52;
+@very-light-ink:    #616971;
+@light-ink:         #9DA4AC;
+@ink:               #BBC1C7;
+@dark-ink:          #D7DBDF;
 
 @heading-ink: @dark-ink;
 
-@quote-color:         fade(rgb(126, 81, 33),77%);
+@quote-color:         fade(#839EBB,77%);
 @quote-support-color: @very-light-ink;
 
-@citation-symbol-color: rgba(169, 86, 31, 0.43);
-@citation-name-color:   rgb(170, 92, 8);
+@citation-symbol-color: @very-light-ink;
+@citation-name-color:   @link-ink;
 
 
 //old @emphasize-color:   rgb(8, 123, 172);
@@ -23,34 +49,30 @@
 @emphasize-quote-color: spin(saturate(@quote-color, 40%), -10);
 
 
-@bold-color:        darken(@emphasize-color, 10%);
+@bold-color:        lighten(@emphasize-color, 10%);
 @bold-quote-color:  @quote-color;
 
-
-
-
-
-@paperwhite:  rgb(248, 246, 241);
-@text-selection-color: darken(@paperwhite, 12%);
+@paperwhite:  #15181A;
+@text-selection-color: lighten(@paperwhite, 12%);
 @cursor-line-color: fade(@text-selection-color, 20%);
 
 
 // gutter colors
-@heftstreifen: rgb(224, 218, 211);
+@heftstreifen: @paperwhite;
 
 //@heftstreifen: rgb(202, 193, 186); //old darker gutter
 
 @heftstreifen-selected: darken(@heftstreifen, 12%);
 
 
-@list-color:    #e24129;
-@cyan:          #379566;
-@blue:          #5e78e1;
-@purple:        #8100c6;
-@green:         #8f932b;
-@red:           #c16161;
-@orange:        #d08e25;
-@light-orange:  #e3a92d;
+@list-color:    #B98283;
+@cyan:          #91CEAD;
+@blue:          #839EBB;
+@purple:        #9E80BA;
+@green:         #9FBD83;
+@red:           #E06C68;
+@orange:        #E79775;
+@light-orange:  #D4A45C;
 
 
 // git colors

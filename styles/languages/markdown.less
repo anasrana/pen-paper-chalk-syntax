@@ -24,7 +24,7 @@
         font-weight: bold;
     }
     &.raw {
-        background-color: rgba(245, 250, 252, 0.65);
+        background-color: #2B3035;
         color: @dark-ink;
         &.inline {
             color: @green;
@@ -35,8 +35,8 @@
     }
     &.underline {
         text-decoration: none;
-        border-bottom: @invisible-ink;
-        border-width: 0px 0px 1px 0px;
+        border-bottom: #2B3035;
+        border-width: 0px 0px 0.5px 0px;
         border-style: none none solid none;
 
     }
@@ -74,6 +74,10 @@
 }
 
 .gfm {
+    .markup.underline.link {
+        font-size: 75%;
+        color: @invisible-ink;
+    }
     .markup.heading {
         font-weight: normal;
     }

@@ -2,17 +2,15 @@
   "name": "pen-paper-chalk-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "A syntax theme specifically for writing in markdown. The theme based on base16chalk theme.",
+  "description": "A syntax theme specifically for writing in markdown. The theme is based on colours from the base16 project.",
   "repository": "https://github.com/anasrana/pen-paper-chalk-syntax.git",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": "=>0.70.0"
   },
   "keywords": [
     "markdown",
-    "light",
-    "brown",
-    "writing",
-    "citing"
+    "dark",
+    "base16"
   ]
 }
